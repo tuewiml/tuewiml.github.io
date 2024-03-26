@@ -6,12 +6,11 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title:Tübingen Women in Machine Learning
-email: tuewiml@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  Women in Machine Learning Tübingen.
-baseurl: "/tuewiml" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+title: blank #'Tübingen Women in Machine Learning'
+email: tueml@gmail.com
+description: > #this means to ignore newlines until "baseurl:" Women in Machine Learning Tübingen.
+#baseurl:  # the subpath of your site, e.g. /blog
+url: https://twiml.org # the base hostname & protocol for your site
 
 # Gems
 gems: [jekyll-paginate]
@@ -20,7 +19,7 @@ gems: [jekyll-paginate]
 markdown: kramdown
 paginate: 5
 paginate_path: '/page:num/'
-markdown: kramdown
+#markdown: kramdown
 highlighter: rouge
 theme: minima
 plugins:
