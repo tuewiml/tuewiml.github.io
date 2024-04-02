@@ -28,7 +28,6 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-sitemap
-  - jekyll_video_tag
 
 exclude:
   - Gemfile
@@ -41,10 +40,9 @@ kramdown:
 menuitems:
     - { title:    Home,
         url:      /index.html }
-    - { title:    About,
-        url:      /about.html }
     - { title:    Contact,
         url:      /contact.html }
     - { title:     News,
         url:      /news.html}
-   
+paginate: 5 
+paginate_path: "/page:num/"
