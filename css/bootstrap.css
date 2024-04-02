@@ -6246,6 +6246,11 @@ button.close {
   width: 100%;
   overflow: hidden;
 }
+.carousel-inner p {
+  font-size: 48px;
+  text-align: center;
+  color: #ff0000; 
+}
 .carousel-inner > .item {
   position: relative;
   display: none;
