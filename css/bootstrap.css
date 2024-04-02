@@ -6246,10 +6246,7 @@ button.close {
   width: 100%;
   overflow: hidden;
 }
-.carousel-inner .item p {
-  font-weight: bold; /* Makes text bold */
-  text-align: center; /* Centers text */
-}
+
 .carousel-inner > .item {
   position: relative;
   display: none;
