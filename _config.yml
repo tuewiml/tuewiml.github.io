@@ -44,5 +44,8 @@ menuitems:
         url:      /contact.html }
     - { title:     News,
         url:      /news.html}
+    - { title:     Posts,
+        url:      /post.html}
+
 paginate: 5 
 paginate_path: "/page:num/"
