@@ -8,7 +8,7 @@
 body {
     font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
     background: url('../img/background_pic.jpeg') no-repeat center center fixed;
-    opacity: 0.8;
+    opacity: 0.5;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
