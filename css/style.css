@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@600&display=swap');
+
+
 /*!
  * Start Bootstrap - Business Casual Bootstrap Theme (http://startbootstrap.com)
  * Code licensed under the Apache License v2.0.
@@ -7,7 +10,7 @@
 
 body {
     font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-    background: url('../img/background_pic.png') no-repeat center center fixed;
+    background-color: #fff; /*url('../img/background_pic.png') no-repeat center center fixed;*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -21,8 +24,8 @@ h4,
 h5,
 h6 {
     text-transform: uppercase;
-    font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 500;
     letter-spacing: 1px;
 }
 pre code {
@@ -108,8 +111,11 @@ hr {
 .intro-text {
     text-transform: uppercase;
     font-size: 1.25em;
-    font-weight: 400;
+    font-family: "League Spartan";
+    font-weight: 200;
+    font-size:x-large;
     letter-spacing: 1px;
+    color:#D11C8C;
 }
 
 .img-border {
@@ -146,12 +152,12 @@ footer p {
         margin: 0;
         padding: 30px 0 10px;
         text-align: center;
-        text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
-        font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+        /* text-shadow: 1px 1px 2px rgba(0,0,0,0.5); */
+        font-family: "League Spartan", "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 5em;
         font-weight: 700;
         line-height: normal;
-        color: #fff;
+        color: #D11C8C;
     }
 
     .top-divider {
@@ -168,12 +174,12 @@ footer p {
         margin: 0;
         padding: 0 0 40px;
         text-align: center;
-        text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        /* text-shadow: 1px 1px 2px rgba(0,0,0,0.5); */
         text-transform: uppercase;
         font-size: 1.25em;
         font-weight: 400;
         letter-spacing: 3px;
-        color: #fff;
+        color: #D11C8C;
     }
 
     .navbar {
@@ -190,8 +196,8 @@ footer p {
 
     .navbar-default {
         border: none;
-        background: #fff;
-        background: rgba(255,255,255,0.9);
+        background:#FBFAF8;
+        /* background: rgba(255,255,255,0.9); */
     }
 
     .nav>li>a {
@@ -207,7 +213,7 @@ footer p {
         float: none;
         margin: 0 auto;
         table-layout: fixed;
-        font-size: 1.25em;
+        font-size:  1.25em;
     }
 	img {
     float: left;
@@ -267,6 +273,9 @@ display: inline;
   }
   
 .col-sm-2 h3 {
+    font-family:"Helvetica Neue";
+    color: #D9A0B5;
+    font-size: medium;
     margin-top: 100; 
     padding-top: -10;
   }
@@ -416,13 +425,14 @@ display: inline;
   font-size: 56px;
   font-weight: 700;
   line-height: 72px;
-  color: #124265;
-  font-family: "Poppins", sans-serif;
+  color:#5e5e5e;
+  font-family: "Helvetica Neue", "Poppins", sans-serif;
 }
 
 #hero h2 {
   color: #5e5e5e;
   margin: 10px 0 0 0;
+  font-family: "Helvetica Neue";
   font-size: 22px;
 }
 
@@ -437,7 +447,7 @@ display: inline;
   transition: 0.5s;
   margin-top: 30px;
   color: #fff;
-  background: #2487ce;
+  background: #D11C8C;
 }
 
 #hero .btn-get-started:hover {
@@ -528,3 +538,13 @@ display: inline;
     line-height: 24px;
   }
 }
+
+
+.carousel-item {
+  display: none;
+}
+
+.carousel-item.active {
+  display: block;
+}
+
