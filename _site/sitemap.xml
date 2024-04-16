@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://localhost:4000/tulip/2016/02/05/eighth-post.html</loc>
+<loc>https://twiml.org/tulip/2016/02/05/eighth-post.html</loc>
 <lastmod>2016-02-05T00:00:00+01:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/about.html</loc>
+<loc>https://twiml.org/about.html</loc>
 </url>
 <url>
-<loc>http://localhost:4000/contact.html</loc>
+<loc>https://twiml.org/contact.html</loc>
 </url>
 <url>
-<loc>http://localhost:4000/</loc>
+<loc>https://twiml.org/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/news.html</loc>
+<loc>https://twiml.org/news.html</loc>
 </url>
 <url>
-<loc>http://localhost:4000/post.html</loc>
+<loc>https://twiml.org/post.html</loc>
 </url>
 </urlset>
