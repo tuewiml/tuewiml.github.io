@@ -3,10 +3,10 @@
   <channel>
     <title>blank</title>
     <description></description>
-    <link>https://twiml.org/</link>
-    <atom:link href="https://twiml.org/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 16 Apr 2024 14:35:04 +0200</pubDate>
-    <lastBuildDate>Tue, 16 Apr 2024 14:35:04 +0200</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 16 Apr 2024 14:37:06 +0200</pubDate>
+    <lastBuildDate>Tue, 16 Apr 2024 14:37:06 +0200</lastBuildDate>
     <generator>Jekyll v4.3.3</generator>
     
       <item>
@@ -21,8 +21,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ultrices porta
 &lt;p&gt;Pellentesque quis hendrerit leo. Pellentesque tristique sem vitae pretium posuere. Vivamus euismod eu tellus nec porttitor. Sed vel est sem. Nullam pellentesque arcu in justo molestie maximus. Integer augue nibh, ultrices eget aliquam eget, rhoncus at est. Phasellus molestie, ante ut tempor dignissim, nisl nisl congue enim, id hendrerit dolor lorem ut ante.&lt;/p&gt;
 </description>
         <pubDate>Fri, 05 Feb 2016 00:00:00 +0100</pubDate>
-        <link>https://twiml.org/tulip/2016/02/05/eighth-post.html</link>
-        <guid isPermaLink="true">https://twiml.org/tulip/2016/02/05/eighth-post.html</guid>
+        <link>http://localhost:4000/tulip/2016/02/05/eighth-post.html</link>
+        <guid isPermaLink="true">http://localhost:4000/tulip/2016/02/05/eighth-post.html</guid>
         
         
         <category>Tulip</category>
