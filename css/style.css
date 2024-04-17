@@ -128,7 +128,11 @@ hr {
     float: none;
     margin: 0 auto 0;
 }
-
+.img-center {
+  position: center;
+  margin-left: 250px;
+  width: fit-content;
+}
 footer {
     background: #fff;
     background: rgba(255,255,255,0.9);
@@ -546,5 +550,10 @@ display: inline;
 
 .carousel-item.active {
   display: block;
+}
+
+.carousel{
+  position: center;
+  width: fit-content;
 }
 
