@@ -557,3 +557,11 @@ display: inline;
   width: fit-content;
 }
 
+.btn-color{
+  background-color: #D11C8C;
+  padding: 14px 50px;
+  border-radius: 5px;
+  border-color: #fff;
+  cursor:grab;
+}
+
