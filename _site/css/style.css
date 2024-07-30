@@ -16,7 +16,26 @@ body {
     background-size: cover;
     -o-background-size: cover;
 }
+/* Mobile-specific styles */
+@media (max-width: 600px) {
+  .container {
+    padding: 0.5rem;
+  }
 
+  .item {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+}
+
+/* Larger screen styles */
+@media (min-width: 600px) {
+  .item {
+    width: calc(50% - 1rem);
+    margin: 0.5rem;
+    float: left;
+  }
+}
 h1,
 h2,
 h3,
