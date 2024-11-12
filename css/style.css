@@ -613,4 +613,9 @@ display: inline;
   object-fit: cover;
 }
 
+.button-container {
+  display: flex;
+  justify-content: space-evenly; /* Options: center, flex-start, flex-end, space-around */
+  gap: 0.2px
+}
 
