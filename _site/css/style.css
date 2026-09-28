@@ -751,7 +751,7 @@ footer p {
 
 .upcoming-section {
     width: calc(100% - 30px);
-    max-width: 900px;
+    max-width: 1000px;
     margin: 0 auto;
     padding-top: 20px;
     box-sizing: border-box;
@@ -776,7 +776,8 @@ footer p {
 }
 
 .upcoming-section .upcoming-desc {
-    font-size: 1.25rem;
+    margin: 15px;
+    font-size: 1.4rem;
 }
 
 .upcoming-content {
@@ -1022,6 +1023,24 @@ footer p {
 }
 
 
+/* Only the upcoming event uses the larger poster. */
+.upcoming-event-media-row {
+    gap: 50px;
+}
+
+.upcoming-event-poster {
+    display: block;
+    width: 380px;
+    max-width: 100%;
+    height: auto;
+    flex-shrink: 0;
+}
+
+.upcoming-registration {
+    margin: 8px 0 24px;
+    font-size: 1.25rem;
+}
+
 .event-media-row .event-poster {
     margin-bottom: 0;
 
@@ -1098,6 +1117,37 @@ footer p {
     font-weight: 700;
 }
 
+/* Larger type only in the upcoming event's schedule. */
+.upcoming-event-media-row .event-schedule-heading {
+    font-size: 1.6rem;
+}
+
+.upcoming-event-media-row .event-schedule-table td {
+    font-size: 1.25rem;
+}
+
+
+/* Speaker names appear below the Career Table Rotations title. */
+.career-table-speakers {
+    list-style: none;
+    margin: 14px 0 0;
+    padding: 0;
+}
+
+.career-table-speakers li + li {
+    margin-top: 7px;
+}
+
+.career-table-speakers .speaker {
+    color: #D11C8C;
+    font-weight: 700;
+}
+
+.career-table-speakers .speaker-affiliation {
+    color: #222;
+    font-weight: 400;
+}
+
 
 /* ==========================================================
    Events page: mobile
@@ -1148,5 +1198,14 @@ footer p {
     .event-poster {
         width: 100%;
         max-width: 300px;
+    }
+
+    .upcoming-event-poster {
+        width: 100%;
+        max-width: 380px;
+    }
+
+    .upcoming-event-media-row {
+        gap: 20px;
     }
 }
